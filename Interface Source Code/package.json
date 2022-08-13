@@ -1,0 +1,29 @@
+{
+  "name": "ssbu-st-gui",
+  "version": "1.0.0",
+  "description": "An electron interface for SSBU tournament streams.",
+  "main": "index.js",
+  "repository": "https://github.com/RBlueSaber4321/SSBU-Stream-Tool",
+  "author": "BlueSaber4321",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^18.0.3",
+    "electron-builder": "^22.14.13"
+  },
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder"
+  },
+  "build": {
+    "appId": "ssbu.st.gui",
+    "linux": {
+      "target": "AppImage"
+    },
+    "win": {
+      "target": "portable"
+    }
+  },
+  "dependencies": {
+    "ws": "^8.5.0"
+  }
+}

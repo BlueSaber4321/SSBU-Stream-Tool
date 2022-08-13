@@ -1,0 +1,13 @@
+{
+  "guiWidth": 600,
+  "guiHeight": 300,
+  "allowIntro": false,
+  "workshop": false,
+  "forceAlt": false,
+  "forceHD": false,
+  "noLoAHD": false,
+  "forceWL": false,
+  "alwaysOnTop": false,
+  "invertScore": false,
+  "scoreAutoUpdate": false
+}
