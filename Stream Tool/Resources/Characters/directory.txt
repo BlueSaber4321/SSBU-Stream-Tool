@@ -1,0 +1,88 @@
+Banjo and Kazooie/Banjo and Kazooie
+Bayonetta/Bayonetta
+Bowser/Bowser
+Bowser Jr/Bowser Jr
+Byleth/Byleth
+Captain Falcon/Captain Falcon
+Chrom/Chrom
+Cloud/Cloud
+Corrin/Corrin
+Daisy/Daisy
+Dark Pit/Dark Pit
+Dark Samus/Dark Samus
+Diddy Kong/Diddy Kong
+Donkey Kong/Donkey Kong
+Dr Mario/Dr Mario
+Duck Hunt/Duck Hunt
+Falco/Falco
+Fox/Fox
+Ganondorf/Ganondorf
+Greninja/Greninja
+Hero/Hero
+Ice Climbers/Ice Climbers
+Ike/Ike
+Incineroar/Incineroar
+Inkling/Inkling
+Isabelle/Isabelle
+Jigglypuff/Jigglypuff
+Joker/Joker
+Kazuya/Kazuya
+Ken/Ken
+King Dedede/King Dedede
+King K Rool/King K Rool
+Kirby/Kirby
+Link/Link
+Little Mac/Little Mac
+Lucario/Lucario
+Lucas/Lucas
+Lucina/Lucina
+Luigi/Luigi
+Mario/Mario
+Marth/Marth
+Mega Man/Mega Man
+Meta Knight/Meta Knight
+Mewtwo/Mewtwo
+Mii Brawler/Mii Brawler
+Mii Gunner/Mii Gunner
+Mii Swordfighter/Mii Swordfighter
+Min Min/Min Min
+Mr Game and Watch/Mr Game and Watch
+Mythra/Mythra
+Ness/Ness
+Olimar/Olimar
+Pac-Man/Pac-Man
+Palutena/Palutena
+Peach/Peach
+Pichu/Pichu
+Pikachu/Pikachu
+Piranha Plant/Piranha Plant
+Pit/Pit
+Pokemon Trainer/Pokemon Trainer
+Pyra/Pyra
+Random/Random
+Richter/Richter
+Ridley/Ridley
+ROB/ROB
+Robin/Robin
+Rosalina and Luma/Rosalina and Luma
+Roy/Roy
+Ryu/Ryu
+Samus/Samus
+Sephiroth/Sephiroth
+Sheik/Sheik
+Shulk/Shulk
+Simon/Simon
+Snake/Snake
+Sonic/
+Sora/
+Steve/
+Terry/
+Toon Link/
+Villager/
+Wario/
+Wii Fit Trainer/
+Wolf/
+Yoshi/
+Young Link/
+Zelda/
+Zero Suit Samus/
