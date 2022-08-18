@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Ganondorf1",
-	 "Ganondorf2",
-	 "Ganondorf3",
-	 "Ganondorf4",
-	 "Ganondorf5",
-	 "Ganondorf6",
- 	 "Ganondorf7",
-	 "Ganondorf8"
+ 	 "Red",
+	 "Violet",
+	 "Blue",
+	 "Green",
+	 "Purple",
+	 "Brown",
+ 	 "White",
+	 "Grey"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -470,
-             "y": 70,
-             "scale": 1
+             "x": 30,
+             "y": 30,
+             "scale": 1.3
         }
      },
      "vsScreen": {

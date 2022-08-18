@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Byleth1",
-	 "Byleth2",
-	 "Byleth3",
-	 "Byleth4",
-	 "Byleth5",
-	 "Byleth6",
- 	 "Byleth7",
-	 "Byleth8"
+ 	 "Male",
+	 "Female",
+	 "Blue",
+	 "Red",
+	 "Yellow",
+	 "Green",
+ 	 "Black",
+	 "Grey"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -480,
-             "y": 70,
-             "scale": 1
+             "x": 32,
+             "y": 40,
+             "scale": 1.8
         }
      },
      "vsScreen": {

@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Captain Falcon1",
-	 "Captain Falcon2",
-	 "Captain Falcon3",
-	 "Captain Falcon4",
-	 "Captain Falcon5",
-	 "Captain Falcon6",
- 	 "Captain Falcon7",
-	 "Captain Falcon8"
+ 	 "Indigo",
+	 "Black",
+	 "Red",
+	 "Green",
+	 "Blue",
+	 "White",
+ 	 "Yellow",
+	 "Cyan"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -500,
-             "y": 100,
-             "scale": 1
+             "x": 30,
+             "y": 30,
+             "scale": 1.6
         }
      },
      "vsScreen": {

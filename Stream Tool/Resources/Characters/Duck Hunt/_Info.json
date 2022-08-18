@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Duck Hunt1",
-	 "Duck Hunt2",
-	 "Duck Hunt3",
-	 "Duck Hunt4",
-	 "Duck Hunt5",
-	 "Duck Hunt6",
- 	 "Duck Hunt7",
-	 "Duck Hunt8"
+ 	 "Default",
+	 "Black",
+	 "Blue",
+	 "Brown",
+	 "White",
+	 "Tan",
+ 	 "Yellow",
+	 "Red"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -500,
-             "y": -70,
-             "scale": 1
+             "x": 30,
+             "y": 30,
+             "scale": 1.5
         }
      },
      "vsScreen": {

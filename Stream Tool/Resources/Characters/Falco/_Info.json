@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Falco1",
-	 "Falco2",
-	 "Falco3",
-	 "Falco4",
-	 "Falco5",
-	 "Falco6",
- 	 "Falco7",
-	 "Falco8"
+ 	 "Grey",
+	 "Orange",
+	 "Blue",
+	 "Red",
+	 "Green",
+	 "Black",
+ 	 "White",
+	 "Pink"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -420,
+             "x": 30,
              "y": 30,
-             "scale": 1
+             "scale": 1.5
         }
      },
      "vsScreen": {

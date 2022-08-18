@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Fox1",
-	 "Fox2",
-	 "Fox3",
-	 "Fox4",
-	 "Fox5",
-	 "Fox6",
- 	 "Fox7",
-	 "Fox8"
+ 	 "Default",
+	 "Black",
+	 "Red",
+	 "Green",
+	 "Orange",
+	 "White",
+ 	 "Yellow",
+	 "Purple"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -480,
-             "y": 40,
-             "scale": 1
+             "x": 30,
+             "y": 30,
+             "scale": 1.5
         }
      },
      "vsScreen": {

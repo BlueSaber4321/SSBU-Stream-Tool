@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Bowser Jr1",
-	 "Bowser Jr2",
-	 "Bowser Jr3",
-	 "Bowser Jr4",
-	 "Bowser Jr5",
-	 "Bowser Jr6",
- 	 "Bowser Jr7",
-	 "Bowser Jr8"
+ 	 "Default",
+	 "Larry",
+	 "Roy",
+	 "Wendy",
+	 "Iggy",
+	 "Morton",
+ 	 "Lemmy",
+	 "Ludwig"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -450,
-             "y": 20,
-             "scale": 1.1
+             "x": 38,
+             "y": 0,
+             "scale": 1.6
         }
      },
      "vsScreen": {

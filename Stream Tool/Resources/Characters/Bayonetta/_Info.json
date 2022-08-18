@@ -1,13 +1,13 @@
 {
     "skinList": [
- 	 "Bayonetta1",
-	 "Bayonetta2",
-	 "Bayonetta3",
-	 "Bayonetta4",
-	 "Bayonetta5",
-	 "Bayonetta6",
- 	 "Bayonetta7",
-	 "Bayonetta8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {

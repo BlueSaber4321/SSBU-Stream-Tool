@@ -1,13 +1,13 @@
 {
     "skinList": [
- 	 "Bowser1",
-	 "Bowser2",
-	 "Bowser3",
-	 "Bowser4",
-	 "Bowser5",
-	 "Bowser6",
- 	 "Bowser7",
-	 "Bowser8"
+ 	 "Default",
+	 "Black",
+	 "Yellow",
+	 "Green",
+	 "Grey",
+	 "Orange",
+ 	 "Red",
+	 "Blue"
     ],
     "scoreboard": {
         "neutral": {
