@@ -1,0 +1,33 @@
+{
+    "skinList": [
+ 	 "Hoes Mad",
+	 "Evangelion",
+	 "BLM",
+	 "FF7 Duo",
+	 "KH Duo",
+	 "2B & A2",
+ 	 "Joycons",
+	 "KLK"
+    ],
+    "scoreboard": {
+        "neutral": {
+             "x": 40,
+             "y": 12,
+             "scale": 1.3
+        }
+    },
+    "vsScreen": {
+        "neutral": {
+           "x": -450,
+           "y": 120,
+           "scale": 1
+        }
+    },
+    "gui": {
+        "neutral": {
+           "x": -5,
+           "y": 38,
+           "scale": 4.5
+        }
+    }
+}

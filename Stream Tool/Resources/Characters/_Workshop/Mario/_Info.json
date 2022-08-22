@@ -1,0 +1,38 @@
+{
+    "skinList": [
+ 	 "Propeller",
+	 "America",
+	 "Ice",
+	 "Black",
+	 "Ugly Green",
+	 "Fire",
+ 	 "Builder",
+	 "Wedding"
+    ],
+    "scoreboard": {
+         "neutral": {
+             "x": 40,
+             "y": 12,
+             "scale": 1.3
+        },
+         "Propeller": {
+             "x": 60,
+             "y": 5,
+             "scale": 1.3
+		 }
+     },
+     "vsScreen": {
+         "neutral": {
+            "x": -500,
+            "y": 0,
+            "scale": 1
+         }
+     },
+     "gui": {
+         "neutral": {
+            "x": -5,
+            "y": 38,
+            "scale": 4.5
+         }
+	  }
+}
