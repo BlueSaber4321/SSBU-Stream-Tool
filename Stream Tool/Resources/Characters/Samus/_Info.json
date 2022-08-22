@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Samus1",
-	 "Samus2",
-	 "Samus3",
-	 "Samus4",
-	 "Samus5",
-	 "Samus6",
- 	 "Samus7",
-	 "Samus8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -490,
-             "y": 20,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -490,
+            "x": -470,
             "y": 20,
-            "scale": 1
+            "scale": 1.1
          }
      },
      "gui": {

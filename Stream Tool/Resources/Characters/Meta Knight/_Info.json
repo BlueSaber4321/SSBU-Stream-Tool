@@ -1,25 +1,25 @@
 {
     "skinList": [
- 	 "Meta Knight1",
-	 "Meta Knight2",
-	 "Meta Knight3",
-	 "Meta Knight4",
-	 "Meta Knight5",
-	 "Meta Knight6",
- 	 "Meta Knight7",
-	 "Meta Knight8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -450,
-             "y": -50,
-             "scale": 1.1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -450,
-            "y": -50,
+            "x": -470,
+            "y": 20,
             "scale": 1.1
          }
      },

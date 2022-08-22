@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Wario1",
-	 "Wario2",
-	 "Wario3",
-	 "Wario4",
-	 "Wario5",
-	 "Wario6",
- 	 "Wario7",
-	 "Wario8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -470,
-             "y": 70,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
             "x": -470,
-            "y": 70,
-            "scale": 1
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {

@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Yoshi1",
-	 "Yoshi2",
-	 "Yoshi3",
-	 "Yoshi4",
-	 "Yoshi5",
-	 "Yoshi6",
- 	 "Yoshi7",
-	 "Yoshi8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -480,
-             "y": 80,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -480,
-            "y": 80,
-            "scale": 1
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {

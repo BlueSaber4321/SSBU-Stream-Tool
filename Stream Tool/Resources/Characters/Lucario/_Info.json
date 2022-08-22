@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Lucario1",
-	 "Lucario2",
-	 "Lucario3",
-	 "Lucario4",
-	 "Lucario5",
-	 "Lucario6",
- 	 "Lucario7",
-	 "Lucario8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -470,
-             "y": 30,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
             "x": -470,
-            "y": 30,
-            "scale": 1
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {

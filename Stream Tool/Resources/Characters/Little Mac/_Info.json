@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Little Mac1",
-	 "Little Mac2",
-	 "Little Mac3",
-	 "Little Mac4",
-	 "Little Mac5",
-	 "Little Mac6",
- 	 "Little Mac7",
-	 "Little Mac8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -450,
-             "y": 100,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -450,
-            "y": 100,
-            "scale": 1
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {

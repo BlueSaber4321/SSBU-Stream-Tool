@@ -1,38 +1,27 @@
 {
     "skinList": [
- 	 "Mii Brawler1",
-	 "Mii Brawler2",
-	 "Mii Brawler3",
-	 "Mii Brawler4"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -450,
-             "y": 50,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
-	 "neutral": {
-            "x": -450,
-            "y": 50,
-            "scale": 1
-         },
-	 "Mii Brawler2": {
-	    "x": -500,
-	    "y": 50,
-	    "scale": 1
-	 },
-	 "Mii Brawler3": {
-	    "x": -500,
-	    "y": 75,
-	    "scale": 2.5
-	 },
-	 "Mii Brawler4": {
-	    "x": -500,
-	    "y": 100,
-	    "scale": 1
-	 }
+         "neutral": {
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
+         }
      },
      "gui": {
          "neutral": {
@@ -40,5 +29,5 @@
             "y": 38,
             "scale": 4.5
          }
-     }
+	  }
 }

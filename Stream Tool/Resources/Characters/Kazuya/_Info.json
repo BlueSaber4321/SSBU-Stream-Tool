@@ -1,25 +1,25 @@
 {
     "skinList": [
- 	 "Kazuya1",
-	 "Kazuya2",
-	 "Kazuya3",
-	 "Kazuya4",
-	 "Kazuya5",
-	 "Kazuya6",
- 	 "Kazuya7",
-	 "Kazuya8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -500,
-             "y": 90,
-             "scale": 1.1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -500,
-            "y": 90,
+            "x": -470,
+            "y": 20,
             "scale": 1.1
          }
      },

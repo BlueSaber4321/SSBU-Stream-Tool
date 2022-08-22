@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Mario1",
-	 "Mario2",
-	 "Mario3",
-	 "Mario4",
-	 "Mario5",
-	 "Mario6",
- 	 "Mario7",
-	 "Mario8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -500,
-             "y": 0,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -500,
-            "y": 0,
-            "scale": 1
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {

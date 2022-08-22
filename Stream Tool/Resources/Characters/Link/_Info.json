@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Link1",
-	 "Link2",
-	 "Link3",
-	 "Link4",
-	 "Link5",
-	 "Link6",
- 	 "Link7",
-	 "Link8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -500,
-             "y": 50,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -500,
-            "y": 50,
-            "scale": 1
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {

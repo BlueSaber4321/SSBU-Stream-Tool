@@ -1,26 +1,26 @@
 {
     "skinList": [
- 	 "Sheik1",
-	 "Sheik2",
-	 "Sheik3",
-	 "Sheik4",
-	 "Sheik5",
-	 "Sheik6",
- 	 "Sheik7",
-	 "Sheik8"
+ 	 "Black",
+	 "Original",
+	 "Yellow",
+	 "Green",
+	 "Red",
+	 "Pink",
+ 	 "White",
+	 "Blue"
     ],
     "scoreboard": {
          "neutral": {
-             "x": -530,
-             "y": 70,
-             "scale": 1
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
-            "x": -530,
-            "y": 70,
-            "scale": 1
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
          }
      },
      "gui": {
