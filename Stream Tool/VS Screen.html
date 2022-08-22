@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>SSBU VS Screen</title>
+    <title>RoA VS Screen</title>
     <script src="Resources/Scripts/VS Screen.js" defer></script>
     <link rel="stylesheet" href="Resources/CSS/VS Screen.css">
 </head>
@@ -201,63 +201,84 @@
     <div id="casterInfo">
 
         <span id="caster1" class="caster"></span>
-        <span id="twitter1Wrapper" class="socialBox twitterWrapper">
+        <span class="socialBox socialBoxL">
             <load-svg src="Resources/SVGs/Twitter.svg" class="twitterIcon"></load-svg>
             <span id="twitter1" class="socialText twitter"></span>
         </span>
-        <span id="twitch1Wrapper" class="socialBox twitchWrapper">
+        <span class="socialBox socialBoxL">
             <load-svg src="Resources/SVGs/Twitch.svg" class="twitchIcon"></load-svg>
             <span id="twitch1" class="socialText twitch"></span>
         </span>
+        <span class="socialBox socialBoxL">
+            <load-svg src="Resources/SVGs/Youtube.svg" class="ytIcon"></load-svg>
+            <span id="yt1" class="socialText yt"></span>
+        </span>
 
         <span id="caster2" class="caster"></span>
-        <span id="twitter2Wrapper" class="socialBox twitterWrapper">
+        <span class="socialBox socialBoxR">
             <load-svg src="Resources/SVGs/Twitter.svg" class="twitterIcon"></load-svg>
             <span id="twitter2" class="twitterInfo twitter"></span>
         </span>
-        <span id="twitch2Wrapper" class="socialBox twitchWrapper">
+        <span class="socialBox socialBoxR">
             <load-svg src="Resources/SVGs/Twitch.svg" class="twitchIcon"></load-svg>
             <span id="twitch2" class="socialText twitch"></span>
+        </span>
+        <span class="socialBox socialBoxR">
+            <load-svg src="Resources/SVGs/Youtube.svg" class="ytIcon"></load-svg>
+            <span id="yt2" class="socialText yt"></span>
         </span>
 
     </div>
 
     <div id="scores" class="absol">
 
-        <div id="scoresL">
+        <div id="scoreTicks">
 
-            <svg width="35" height="23" id="scoreL-1" class="scoreTick">
-                <polygon points="0,0 27,0 35,23 8,23"/>
-            </svg>
-            <svg width="35" height="23" id="scoreL-2" class="scoreTick">
-                <polygon points="0,0 27,0 35,23 8,23"/>
-            </svg>
-            <svg width="35" height="23" id="scoreL-3" class="scoreTick">
-                <polygon points="0,0 27,0 35,23 8,23"/>
-            </svg>
+            <div id="scoresL">
+
+                <svg width="35" height="23" id="scoreL-1" class="scoreTick">
+                    <polygon points="0,0 27,0 35,23 8,23"/>
+                </svg>
+                <svg width="35" height="23" id="scoreL-2" class="scoreTick">
+                    <polygon points="0,0 27,0 35,23 8,23"/>
+                </svg>
+                <svg width="35" height="23" id="scoreL-3" class="scoreTick">
+                    <polygon points="0,0 27,0 35,23 8,23"/>
+                </svg>
+    
+            </div>
+    
+            <div id="scoresR">
+    
+                <svg width="35" height="23" id="scoreR-1" class="scoreTick">
+                    <polygon points="0,0 27,0 35,23 8,23"/>
+                </svg>
+                <svg width="35" height="23" id="scoreR-2" class="scoreTick">
+                    <polygon points="0,0 27,0 35,23 8,23"/>
+                </svg>
+                <svg width="35" height="23" id="scoreR-3" class="scoreTick">
+                    <polygon points="0,0 27,0 35,23 8,23"/>
+                </svg>
+    
+            </div>
+    
+            <img id="scoreBorder" class="absol" alt="">
 
         </div>
 
-        <div id="scoresR">
+        <div id="scoreNumerical">
 
-            <svg width="35" height="23" id="scoreR-1" class="scoreTick">
-                <polygon points="0,0 27,0 35,23 8,23"/>
-            </svg>
-            <svg width="35" height="23" id="scoreR-2" class="scoreTick">
-                <polygon points="0,0 27,0 35,23 8,23"/>
-            </svg>
-            <svg width="35" height="23" id="scoreR-3" class="scoreTick">
-                <polygon points="0,0 27,0 35,23 8,23"/>
-            </svg>
+            <span id="scoreNumL" class="scoreNum"></span>
+            <span id="scoreNumR" class="scoreNum"></span>
+
+            <img id="scoreNumBorder" class="absol" src="Resources/Overlay/VS Screen/Score Border BoX.png" alt="">
 
         </div>
-
-        <img id="scoreBorder" class="absol" alt="">
 
     </div>
 
     <div id="connErrorDiv">
-        Uh Oh! We lost connection with the GUI! Please wait, we will be back soon!
+        Can't connect with GUI, attempting to reconnect every 5 seconds...
     </div>
     
 </body>
