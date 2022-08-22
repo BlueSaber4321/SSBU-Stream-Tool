@@ -1,7 +1,6 @@
-![](https://cdn.discordapp.com/attachments/1006411318028402708/1011112854495170560/unknown.png)
-### A tournament overlay for Super Smash Bros. Ultimate Streams.
+# Notice: This tool is NOT ready for usage in streams as assets have not been configured in the scoreboard.
 
-## Warning: This tool is not ready for usage in streams as assets have not been configured in the scoreboard.
+# A tournament overlay for Super Smash Bros. Ultimate Streams.
 
 ### Game Overlay
 <img src="https://cdn.discordapp.com/attachments/1006411318028402708/1009068442017603676/Screenshot_2022-08-16_07-57-11.png" width="600">
