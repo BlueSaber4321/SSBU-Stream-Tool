@@ -1,5 +1,5 @@
-# SSBU-Stream-Tool
-A tournament overlay for Super Smash Bros. Ultimate Streams.
+![](https://cdn.discordapp.com/attachments/1006411318028402708/1011112854495170560/unknown.png)
+### A tournament overlay for Super Smash Bros. Ultimate Streams.
 
 ## Warning: This tool is not ready for usage in streams as assets have not been configured in the scoreboard.
 
