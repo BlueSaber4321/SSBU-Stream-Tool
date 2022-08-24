@@ -7,7 +7,7 @@
   "forceHD": false,
   "noLoAHD": false,
   "forceWL": false,
-  "alwaysOnTop": true,
+  "alwaysOnTop": false,
   "invertScore": false,
   "scoreAutoUpdate": false,
   "webSocketPort": 8080
