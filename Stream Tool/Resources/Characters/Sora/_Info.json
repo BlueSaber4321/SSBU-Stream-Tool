@@ -1,13 +1,13 @@
 {
     "skinList": [
- 	 "Black",
-	 "Original",
-	 "Yellow",
-	 "Green",
-	 "Red",
-	 "Pink",
- 	 "White",
-	 "Blue"
+ 	 "KH",
+	 "KH2",
+	 "KHDDD",
+	 "KHIII",
+	 "KHTR",
+	 "Valor",
+ 	 "Wisdom",
+	 "Ultimate"
     ],
     "scoreboard": {
          "neutral": {
