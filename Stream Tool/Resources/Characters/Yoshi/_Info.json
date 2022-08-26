@@ -1,13 +1,13 @@
 {
     "skinList": [
- 	 "Black",
-	 "Original",
-	 "Yellow",
-	 "Green",
+ 	 "Green",
 	 "Red",
+	 "Blue",
+	 "Yellow",
 	 "Pink",
- 	 "White",
-	 "Blue"
+	 "Cyan",
+ 	 "Purple",
+	 "Crafted"
     ],
     "scoreboard": {
          "neutral": {
