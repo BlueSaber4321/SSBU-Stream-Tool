@@ -1,0 +1,100 @@
+ Volume in drive E is Seagate Barracuda HDD
+ Volume Serial Number is 6ABF-1B7A
+
+ Directory of E:\Repos\SSBU-Stream-Tool\Stream Tool\Resources\Characters
+
+08/26/2022  07:04 PM    <DIR>          .
+08/26/2022  07:00 PM    <DIR>          ..
+08/21/2022  11:37 PM    <DIR>          Banjo and Kazooie
+08/21/2022  11:37 PM    <DIR>          Bayonetta
+08/21/2022  09:06 PM           205,758 BG.webm
+08/21/2022  11:37 PM    <DIR>          Bowser
+08/21/2022  11:37 PM    <DIR>          Bowser Jr
+08/21/2022  11:37 PM    <DIR>          Byleth
+08/21/2022  11:37 PM    <DIR>          Captain Falcon
+08/21/2022  11:55 PM    <DIR>          Chrom
+08/21/2022  11:37 PM    <DIR>          Cloud
+08/21/2022  11:57 PM    <DIR>          Corrin
+08/21/2022  11:58 PM    <DIR>          Daisy
+08/21/2022  11:38 PM    <DIR>          Dark Pit
+08/21/2022  11:38 PM    <DIR>          Dark Samus
+08/21/2022  11:38 PM    <DIR>          Diddy Kong
+08/26/2022  07:04 PM                 0 dir.txt
+08/21/2022  11:38 PM    <DIR>          Donkey Kong
+08/21/2022  11:59 PM    <DIR>          Dr Mario
+08/21/2022  11:38 PM    <DIR>          Duck Hunt
+08/22/2022  12:00 AM    <DIR>          Falco
+08/22/2022  12:00 AM    <DIR>          Fox
+08/21/2022  11:38 PM    <DIR>          Ganondorf
+08/21/2022  11:38 PM    <DIR>          Greninja
+08/21/2022  11:38 PM    <DIR>          Hero
+08/22/2022  02:20 PM    <DIR>          Ice Climbers
+08/22/2022  02:48 PM    <DIR>          Ike
+08/22/2022  02:49 PM    <DIR>          Incineroar
+08/22/2022  02:50 PM    <DIR>          Inkling
+08/22/2022  02:50 PM    <DIR>          Isabelle
+08/22/2022  02:51 PM    <DIR>          Jigglypuff
+08/22/2022  02:52 PM    <DIR>          Joker
+08/22/2022  02:52 PM    <DIR>          Kazuya
+08/22/2022  02:53 PM    <DIR>          Ken
+08/22/2022  02:53 PM    <DIR>          King Dedede
+08/22/2022  02:54 PM    <DIR>          King K Rool
+08/22/2022  02:54 PM    <DIR>          Kirby
+08/22/2022  02:56 PM    <DIR>          Link
+08/22/2022  02:56 PM    <DIR>          Little Mac
+08/22/2022  02:57 PM    <DIR>          Lucario
+08/22/2022  02:58 PM    <DIR>          Lucas
+08/22/2022  02:58 PM    <DIR>          Lucina
+08/22/2022  02:59 PM    <DIR>          Luigi
+08/22/2022  03:00 PM    <DIR>          Mario
+08/22/2022  03:01 PM    <DIR>          Marth
+08/22/2022  03:02 PM    <DIR>          Mega Man
+08/22/2022  03:03 PM    <DIR>          Meta Knight
+08/24/2022  02:50 PM    <DIR>          Mewtwo
+08/21/2022  09:06 PM    <DIR>          Mii Brawler
+08/21/2022  09:06 PM    <DIR>          Mii Gunner
+08/21/2022  09:06 PM    <DIR>          Mii Swordfighter
+08/21/2022  09:06 PM    <DIR>          Min Min
+08/21/2022  09:06 PM    <DIR>          Mr Game and Watch
+08/21/2022  09:06 PM    <DIR>          Mythra
+08/21/2022  09:06 PM    <DIR>          Ness
+08/21/2022  09:06 PM    <DIR>          Olimar
+08/21/2022  09:06 PM    <DIR>          Pac-Man
+08/21/2022  09:06 PM    <DIR>          Palutena
+08/21/2022  09:06 PM    <DIR>          Peach
+08/21/2022  09:06 PM    <DIR>          Pichu
+08/21/2022  09:06 PM    <DIR>          Pikachu
+08/21/2022  09:06 PM    <DIR>          Piranha Plant
+08/21/2022  09:06 PM    <DIR>          Pit
+08/21/2022  09:06 PM    <DIR>          Pokemon Trainer
+08/21/2022  09:06 PM    <DIR>          Pyra
+08/21/2022  11:38 PM    <DIR>          Random
+08/21/2022  09:06 PM    <DIR>          Richter
+08/21/2022  09:06 PM    <DIR>          Ridley
+08/21/2022  09:06 PM    <DIR>          ROB
+08/21/2022  09:06 PM    <DIR>          Robin
+08/21/2022  09:06 PM    <DIR>          Rosalina and Luma
+08/21/2022  09:06 PM    <DIR>          Roy
+08/21/2022  09:06 PM    <DIR>          Ryu
+08/21/2022  09:06 PM    <DIR>          Samus
+08/21/2022  09:06 PM    <DIR>          Sephiroth
+08/21/2022  09:06 PM    <DIR>          Sheik
+08/21/2022  09:06 PM    <DIR>          Shulk
+08/21/2022  09:06 PM    <DIR>          Simon
+08/21/2022  09:06 PM    <DIR>          Snake
+08/21/2022  09:06 PM    <DIR>          Sonic
+08/21/2022  09:06 PM    <DIR>          Sora
+08/21/2022  09:06 PM    <DIR>          Steve
+08/21/2022  09:06 PM    <DIR>          Terry
+08/21/2022  09:06 PM    <DIR>          Toon Link
+08/21/2022  09:06 PM    <DIR>          Villager
+08/21/2022  09:06 PM    <DIR>          Wario
+08/21/2022  09:06 PM    <DIR>          Wii Fit Trainer
+08/21/2022  09:06 PM    <DIR>          Wolf
+08/21/2022  09:06 PM    <DIR>          Yoshi
+08/21/2022  09:06 PM    <DIR>          Young Link
+08/21/2022  09:06 PM    <DIR>          Zelda
+08/21/2022  09:06 PM    <DIR>          Zero Suit Samus
+08/22/2022  12:14 AM    <DIR>          _Workshop
+               2 File(s)        205,758 bytes
+              91 Dir(s)  251,236,712,448 bytes free

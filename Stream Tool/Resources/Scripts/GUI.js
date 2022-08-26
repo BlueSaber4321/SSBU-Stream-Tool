@@ -535,7 +535,7 @@ function init() {
 
 function moveViewport() {
     if (!movedSettings) {
-        viewport.style.transform = "translateX(-40%)";
+        viewport.style.transform = "translateX(-240px)";
         overlayDiv.style.opacity = ".25";
         goBackDiv.style.display = "block";
         goBackDiv.style.
@@ -613,6 +613,9 @@ function loadCharacters() {
         charFinder.lastElementChild.appendChild(newDiv);
 
     }
+
+    // this is just so Remote Update has a character list
+    fs.writeFileSync(`${textPath}/Character List.json`, JSON.stringify(characterList, null, 2));
 
 }
 
@@ -717,7 +720,7 @@ function openSkinSelector(pNum) {
         charImg.className = "pfCharImg";
         charImg.setAttribute('src', `${charPath}/${character}/${charInfo.skinList[i]}.png`);
         // we have to position it
-        positionChar(character, charInfo.skinList[i], charImg);
+        positionChar(charInfo.skinList[i], charImg, charInfo);
         // and add it to the mask
         charImgBox.appendChild(charImg);
 
@@ -733,7 +736,7 @@ function openSkinSelector(pNum) {
     skinSelectors[pNum].appendChild(skinFinder);
 
     // if this is the right side, change anchor point so it stays visible
-    if (pNum%2 != 0) {
+    if (pNum%2 != 0 && window.innerWidth > 600) {
         skinFinder.style.right = "0px";
         skinFinder.style.left = "";
     } else {
@@ -1058,7 +1061,7 @@ function checkPlayerPreset(pNum) {
                     charImg.className = "pfCharImg";
                     charImg.setAttribute('src', charPath+'/'+char.character+'/'+char.skin+'.png');
                     //we have to position it
-                    positionChar(char.character, char.skin, charImg);
+                    positionChar(char.skin, charImg, getJson(charPath + "/" + char.character + "/_Info"));
                     //and add it to the mask
                     charImgBox.appendChild(charImg);
 
@@ -1091,10 +1094,7 @@ function checkPlayerPreset(pNum) {
 }
 
 // now the complicated "position character image" function!
-async function positionChar(character, skin, charEL) {
-
-    //get the character positions
-    const charInfo = getJson(charPath + "/" + character + "/_Info");
+async function positionChar(skin, charEL, charInfo) {
 	
 	//               x, y, scale
 	const charPos = [0, 0, 1];
@@ -1388,8 +1388,11 @@ function savePlayerPreset() {
     if (fs.existsSync(`${textPath}/Player Info/${document.getElementById("pInfoInputName").value}.json`)) {
         
         const existingPreset = getJson(`${textPath}/Player Info/${document.getElementById("pInfoInputName").value}`);
+        // add existing characters to the new json, but not if the character is the same
         for (let i = 0; i < existingPreset.characters.length; i++) {
-            preset.characters.push(existingPreset.characters[i]);
+            if (existingPreset.characters[i].character != charSelectors[pNum].getElementsByClassName("charSelectorText")[0].innerHTML) {
+                preset.characters.push(existingPreset.characters[i]);
+            }
         }
 
     }
@@ -1651,7 +1654,7 @@ function clearPlayers() {
 function workshopToggle() {
 
     // set a new character path
-    charPath = this.checked ? charPathWork : charPathBase;
+    charPath = workshopCheck.checked ? charPathWork : charPathBase;
     // reload character lists
     loadCharacters();
     // clear current character lists
@@ -1660,7 +1663,7 @@ function workshopToggle() {
     }
 
     // disable or enable alt arts checkbox
-    if (this.checked) {
+    if (workshopCheck.checked) {
         forceAlt.disabled = false;
     } else {
         forceAlt.disabled = true;
@@ -1788,7 +1791,8 @@ function writeScoreboard() {
         allowIntro: document.getElementById('allowIntro').checked,
         // this is just for remote updating
         forceHD: forceHDCheck.checked,
-        noLoAHD: noLoAHDCheck.checked
+        noLoAHD: noLoAHDCheck.checked,
+        workshop: workshopCheck.checked
     };
 
     //add the player's info to the player section of the json
@@ -2047,6 +2051,37 @@ ipc.on('remoteGuiData', (event, data) => {
         currentBestOf = 3
     }
     document.getElementById("bestOf").click();
+
+    // set the settings
+    if (newJson.workshop != workshopCheck.checked) {
+        if (newJson.workshop) {
+            workshopCheck.checked = true;
+        } else {
+            workshopCheck.checked = false;
+        }
+        workshopToggle();
+    } else {
+        if (newJson.workshop) {
+            workshopCheck.checked = true;
+        } else {
+            workshopCheck.checked = false;
+        }
+    }
+    if (newJson.allowIntro) {
+        document.getElementById("allowIntro").checked = true;
+    } else {
+        document.getElementById("allowIntro").checked = false;
+    }
+    if (newJson.forceHD) {
+        forceHDCheck.checked = true;
+    } else {
+        forceHDCheck.checked = false;
+    }
+    if (newJson.noLoAHD) {
+        noLoAHDCheck.checked = true;
+    } else {
+        noLoAHDCheck.checked = false;
+    }
    
     for (let i = 0; i < newJson.player.length; i++) {
 
@@ -2075,30 +2110,13 @@ ipc.on('remoteGuiData', (event, data) => {
     }
 
     roundInp.value = newJson.round;
-    roundInp.value = newJson.tournamentName;
+    tournamentInp.value = newJson.tournamentName;
 
     for (let i = 0; i < newJson.caster.length; i++) {
         casters[i].setName(newJson.caster[i].name);
         casters[i].setTwitter(newJson.caster[i].twitter);
         casters[i].setTwitch(newJson.caster[i].twitch);
         casters[i].setYt(newJson.caster[i].yt);
-    }
-
-    // and finally, settings
-    if (newJson.allowIntro) {
-        document.getElementById("allowIntro").checked = true;
-    } else {
-        document.getElementById("allowIntro").checked = false;
-    }
-    if (newJson.forceHD) {
-        forceHDCheck.checked = true;
-    } else {
-        forceHDCheck.checked = false;
-    }
-    if (newJson.noLoAHD) {
-        noLoAHDCheck.checked = true;
-    } else {
-        noLoAHDCheck.checked = false;
     }
 
     // write it down
