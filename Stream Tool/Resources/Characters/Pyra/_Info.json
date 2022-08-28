@@ -1,18 +1,18 @@
 {
     "skinList": [
- 	 "Black",
-	 "Original",
-	 "Yellow",
+ 	 "Default",
 	 "Green",
-	 "Red",
-	 "Pink",
- 	 "White",
-	 "Blue"
+	 "Swapped",
+	 "Gormotti",
+	 "Black",
+	 "Blue",
+ 	 "Saturated",
+	 "Metal"
     ],
     "scoreboard": {
          "neutral": {
-             "x": 40,
-             "y": 60,
+             "x": 45,
+             "y": 50,
              "scale": 2.6
         }
      },
