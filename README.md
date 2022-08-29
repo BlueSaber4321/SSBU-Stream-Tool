@@ -1,5 +1,3 @@
-# Notice: This tool is NOT ready for usage in streams as assets have not been configured in the scoreboard.
-
 # A tournament overlay for Super Smash Bros. Ultimate Streams.
 
 ### Game Overlay
