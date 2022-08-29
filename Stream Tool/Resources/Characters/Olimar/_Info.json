@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Black",
-	 "Original",
-	 "Yellow",
-	 "Green",
+ 	 "Tan",
 	 "Red",
-	 "Pink",
- 	 "White",
-	 "Blue"
+	 "Green",
+	 "Blue",
+	 "Alph",
+	 "Alph Green",
+ 	 "Alph Pink",
+	 "Alph Red"
     ],
     "scoreboard": {
          "neutral": {
-             "x": 40,
-             "y": 60,
-             "scale": 2.6
+             "x": 32,
+             "y": -5,
+             "scale": 1
         }
      },
      "vsScreen": {

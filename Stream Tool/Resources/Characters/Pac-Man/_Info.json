@@ -1,19 +1,19 @@
 {
     "skinList": [
- 	 "Black",
-	 "Original",
+ 	 "Default",
+	 "Blue",
 	 "Yellow",
-	 "Green",
-	 "Red",
-	 "Pink",
- 	 "White",
-	 "Blue"
+	 "Black",
+	 "Purple",
+	 "White",
+ 	 "Red",
+	 "Plaid"
     ],
     "scoreboard": {
          "neutral": {
              "x": 40,
-             "y": 60,
-             "scale": 2.6
+             "y": 20,
+             "scale": 1.4
         }
      },
      "vsScreen": {
