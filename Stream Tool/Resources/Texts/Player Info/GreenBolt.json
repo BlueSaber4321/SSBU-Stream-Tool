@@ -1,0 +1,25 @@
+{
+  "pronouns": "",
+  "tag": "",
+  "twitter": "UsamGreenBolt",
+  "twitch": "greenbolt__vr",
+  "yt": "",
+  "characters": [
+    {
+      "character": "Wolf",
+      "skin": "Green"
+    },
+    {
+      "character": "Yoshi",
+      "skin": "Green"
+    },
+    {
+      "character": "Terry",
+      "skin": "Green"
+    },
+    {
+      "character": "Sora",
+      "skin": "Wisdom"
+    }
+  ]
+}

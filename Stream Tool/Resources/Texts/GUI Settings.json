@@ -7,7 +7,7 @@
   "forceHD": false,
   "noLoAHD": false,
   "forceWL": false,
-  "alwaysOnTop": false,
+  "alwaysOnTop": true,
   "invertScore": false,
   "scoreAutoUpdate": false,
   "remoteUpdatePort": 1111,
