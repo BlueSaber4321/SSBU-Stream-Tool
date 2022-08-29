@@ -31,7 +31,7 @@ const pInfos = []; // player info that doesnt have exclusive inputs
 
 let currentP1WL = "";
 let currentP2WL = "";
-let currentBestOf = 5;
+let currentBestOf = 3;
 
 let gamemode = 1;
 
@@ -268,6 +268,10 @@ class Score {
         this.scoreNumEl.style.display = "none";
     }
     showBo3() {
+        for (let i = 0; i < this.scoreEls.length; i++) {
+            this.scoreEls[i].style.display = "block";            
+        }
+        this.scoreNumEl.style.display = "none";
         this.scoreEls[2].style.display = "none";
     }
     showBoX() {
@@ -1407,24 +1411,24 @@ function savePlayerPreset() {
 // called when clicking on the "Best of" button
 function changeBestOf() {
 
-    if (currentBestOf == 5) {
+    if (currentBestOf == 3) {
 
-        currentBestOf = 3;
+        currentBestOf = 5;
 
         // change the visual text
-        this.innerHTML = "Best of 3";
+        this.innerHTML = "Best of 5";
         this.title = "Click to change the scoring to Best of X";
 
         // hide the last score tick from the score ticks
-        scores[0].showBo3();
-        scores[1].showBo3();
+        scores[0].showBo5();
+        scores[1].showBo5();
 
-    } else if (currentBestOf == 3) {
+    } else if (currentBestOf == 5) {
 
         currentBestOf = "X";
 
         this.innerHTML = "Best of X";
-        this.title = "Click to change the scoring to Best of 5";
+        this.title = "Click to change the scoring to Best of 3";
 
         scores[0].showBoX();
         scores[1].showBoX();
@@ -1432,13 +1436,13 @@ function changeBestOf() {
 
     } else if (currentBestOf == "X") {
 
-        currentBestOf = 5;
+        currentBestOf = 3;
 
-        this.innerHTML = "Best of 5";
-        this.title = "Click to change the scoring to Best of 3";
+        this.innerHTML = "Best of 3";
+        this.title = "Click to change the scoring to Best of 5";
 
-        scores[0].showBo5();
-        scores[1].showBo5();
+        scores[0].showBo3();
+        scores[1].showBo3();
 
     }
 
@@ -2045,12 +2049,12 @@ ipc.on('remoteGuiData', (event, data) => {
     }
     document.getElementById("gamemode").click();
 
-    if (newJson.bestOf == 5) {
-        currentBestOf = "X"
-    } else if (newJson.bestOf == 3) {
+    if (newJson.bestOf == 3) {
         currentBestOf = 5
+    } else if (newJson.bestOf == 5) {
+        currentBestOf = "X"
     } else {
-        currentBestOf = 3
+        currentBestOf = "X"
     }
     document.getElementById("bestOf").click();
 
