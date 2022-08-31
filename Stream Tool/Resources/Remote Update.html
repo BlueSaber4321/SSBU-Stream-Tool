@@ -95,7 +95,7 @@
                   <span id="scoreText1">Wins</span>
                   <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1">
                   <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1">
-                  <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1">
+                  <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1" style="display: none;">
                   <input type="number" class="scoreCheckN mousetrap" tabindex="-1" value="0" min="0">
                 </div>
                 
@@ -194,7 +194,7 @@
                   <span id="scoreText2">Wins</span>
                   <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1">
                   <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1">
-                  <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1">
+                  <input type="checkbox" class="scoreCheck mousetrap" tabindex="-1" style="display: none;">
                   <input type="number" class="scoreCheckN mousetrap" tabindex="-1" value="0" min="0">
                 </div>
 
@@ -215,7 +215,7 @@
 
           <div id="roundInfo">
 
-            <div id="bestOf" title="Click to change the scoring to Best of 3">Best of 5</div>
+            <div id="bestOf" title="Click to change the scoring to Best of 5">Best of 3</div>
   
             <input type="text" id="roundName" class="textInput mousetrap" placeholder="Current Round" spellcheck="false" tabindex="4">
             <input type="text" id="tournamentName" class="textInput mousetrap" placeholder="Tournament Name" spellcheck="false" tabindex="4">  
@@ -305,25 +305,25 @@
 
             <div class="settingsTitle">Scoreboard</div>
 
-            <div class="settingBox" title="Plays an intro on 'RoA Scoreboard.html' whenever the file loads.">
+            <div class="settingBox" title="Plays an intro on 'SSBU Scoreboard.html' whenever the file loads.">
               <input type="checkbox" id="allowIntro" class="settingsCheck" tabindex="-1">
               <label for="allowIntro" class="settingsText">Allow Intro</span>
             </div>
   
-            <div class="settingBox" title="Uses alternative art for workshop characters that have one.">
+            <div style="display: none" class="settingBox" title="Uses alternative art for workshop characters that have one.">
               <input type="checkbox" id="forceAlt" class="settingsCheck" tabindex="-1">
               <label for="forceAlt" id="mmText" class="settingsText">Use 'Alt' skins</span>
             </div>
   
-            <div class="settingsTitle">VS Screen</div>
+            <div style="display: none" class="settingsTitle">VS Screen</div>
   
-            <div class="settingBox" title="Forces HD renders to appear on the VS screen,
+            <div style="display: none" class="settingBox" title="Forces HD renders to appear on the VS screen,
 while keeping the regular renders for the scoreboard.">
               <input type="checkbox" id="forceHD" class="settingsCheck" tabindex="-1">
               <label for="forceHD" class="settingsText">Always use HD renders</span>
             </div>
   
-            <div class="settingBox" title="Will just show regular HD renders in the
+            <div style="display: none" class="settingBox" title="Will just show regular HD renders in the
 VS Screen even when LoA skins are selected.">
               <input type="checkbox" id="noLoAHD" class="settingsCheck" disabled tabindex="-1">
               <label for="noLoAHD" class="settingsText">No LoA HD renders</span>
@@ -333,7 +333,7 @@ VS Screen even when LoA skins are selected.">
   
             <div class="settingBox" title="Please set this toggle on the local GUI">
               <input type="checkbox" id="workshopToggle" class="settingsCheck" tabindex="-1" disabled>
-              <label for="workshopToggle" class="settingsText">Use Workshop characters</span>
+              <label for="workshopToggle" class="settingsText">Use Modded characters</span>
             </div>
             
             <div class="settingBox" title="Forces the [W]/[L] buttons to appear on the interface.
