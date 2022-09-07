@@ -28,19 +28,19 @@
      },
      "vsScreen": {
          "neutral": {
-            "x": -590,
+            "x": -545,
             "y": 20,
-            "scale": 1.05
+            "scale": 2.05
          },
 	 "Sephiroth7": {
             "x": -570,
             "y": 50,
-            "scale": 1.05
+            "scale": 2.05
          },
 	 "Sephiroth8": {
             "x": -570,
             "y": 50,
-            "scale": 1.05
+            "scale": 2.05
          }
      },
      "gui": {

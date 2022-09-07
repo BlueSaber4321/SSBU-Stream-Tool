@@ -1,0 +1,36 @@
+{
+    "skinList": [
+ 	 "Default",
+	 "Black",
+	 "Yellow",
+	 "Green",
+	 "Grey",
+	 "Orange",
+ 	 "Red",
+	 "Blue",
+	 "Fury",
+	 "Wedding",
+	 "Dry Bowser"
+    ],
+    "scoreboard": {
+        "neutral": {
+            "x": 20,
+            "y": 0,
+            "scale": 1.3
+       }
+     },
+     "vsScreen": {
+         "neutral": {
+            "x": -500,
+            "y": 0,
+            "scale": 1
+         }
+     },
+     "gui": {
+         "neutral": {
+            "x": -5,
+            "y": 38,
+            "scale": 4.5
+         }
+	  }
+}
