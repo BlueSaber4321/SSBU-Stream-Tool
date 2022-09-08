@@ -7,7 +7,9 @@
 	 "KH",
 	 "Advent Black",
  	 "Advent Teal",
-	 "Advent Purple"
+	 "Advent Purple",
+	 "Japanese", 
+	 "Amaterasu"
     ],
     "scoreboard": {
          "neutral": {
@@ -20,7 +22,7 @@
          "neutral": {
             "x": -450,
             "y": 50,
-            "scale": 1
+            "scale": 2.0
          }
      },
      "gui": {

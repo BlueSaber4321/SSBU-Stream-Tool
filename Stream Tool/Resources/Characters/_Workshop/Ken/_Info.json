@@ -1,34 +1,34 @@
 {
     "skinList": [
- 	 "Blue",
-	 "Classic",
-	 "Red",
-	 "Classic Red",
-	 "Yellow",
- 	 "Classic Cyan",
+ 	 "Red",
+	 "Gray",
+	 "Purple",
+	 "White",
 	 "Green",
-	 "Classic Green",
+	 "Yellow",
+ 	 "Teal",
 	 "Black",
-	 "Classic Sailor",
-	 "Orange and Blue",
-	 "Classic NES Golf",
-	 "Mint",
-	 "Classic Tan",
-	 "Graffiti"
-	 
+	 "Red and Black",
+	 "SFV"
     ],
     "scoreboard": {
          "neutral": {
-             "x": 40,
-             "y": 60,
+             "x": 30,
+             "y": 80,
              "scale": 2.6
         }
      },
      "vsScreen": {
          "neutral": {
             "x": -470,
-            "y": 70,
-            "scale": 0.8
+            "y": 20,
+            "scale": 2.0
+		 },
+		 
+			"SFV": {
+            "x": -500,
+            "y": 20,
+            "scale": 0.9
          }
      },
      "gui": {

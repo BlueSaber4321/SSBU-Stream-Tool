@@ -1,13 +1,18 @@
 {
     "skinList": [
  	 "Black",
+	 "Zero",
 	 "Purple",
 	 "Blue",
 	 "Yellow",
 	 "Red",
 	 "White",
+	 "Jotaro",
  	 "School",
-	 "School White"
+	 "School White",
+	 "School Red",
+	 "Majima"
+	 
     ],
     "scoreboard": {
          "neutral": {
@@ -20,7 +25,7 @@
          "neutral": {
             "x": -470,
             "y": 20,
-            "scale": 1.1
+            "scale": 2.0
          }
      },
      "gui": {

@@ -1,13 +1,14 @@
 {
     "skinList": [
  	 "White",
-	 "Grey",
+	 "Gray",
 	 "Cyan",
 	 "Black",
 	 "Orange",
 	 "Blue",
  	 "Green",
-	 "Purple"
+	 "Purple",
+	 "Green"
     ],
     "scoreboard": {
          "neutral": {
@@ -20,7 +21,7 @@
          "neutral": {
             "x": -470,
             "y": 20,
-            "scale": 1.1
+            "scale": 2.0
          }
      },
      "gui": {

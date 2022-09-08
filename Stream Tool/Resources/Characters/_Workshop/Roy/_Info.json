@@ -2,12 +2,15 @@
     "skinList": [
  	 "Blue",
 	 "Red",
+	 "Hellbound",
 	 "Green",
+	 "Green and Black",
 	 "Violet",
 	 "Cyan",
 	 "Purple",
  	 "Pink",
-	 "Yellow"
+	 "Yellow",
+	 "White"
     ],
     "scoreboard": {
          "neutral": {
@@ -20,7 +23,7 @@
          "neutral": {
             "x": -470,
             "y": 20,
-            "scale": 1.1
+            "scale": 2.0
          }
      },
      "gui": {
