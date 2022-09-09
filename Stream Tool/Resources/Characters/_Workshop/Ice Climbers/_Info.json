@@ -1,0 +1,33 @@
+{
+    "skinList": [
+ 	 "Purple",
+	 "Blue",
+	 "Green",
+	 "Indigo",
+	 "Red",
+	 "Brown",
+ 	 "White",
+	 "Orange"
+    ],
+    "scoreboard": {
+         "neutral": {
+             "x": 40,
+             "y": 5,
+             "scale": 1.4
+        }
+     },
+     "vsScreen": {
+         "neutral": {
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
+         }
+     },
+     "gui": {
+         "neutral": {
+            "x": -5,
+            "y": 38,
+            "scale": 4.5
+         }
+	  }
+}

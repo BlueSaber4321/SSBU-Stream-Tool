@@ -1,0 +1,33 @@
+{
+    "skinList": [
+ 	 "Tan",
+	 "Red",
+	 "Green",
+	 "Blue",
+	 "Alph",
+	 "Alph Green",
+ 	 "Alph Pink",
+	 "Alph Red"
+    ],
+    "scoreboard": {
+         "neutral": {
+             "x": 32,
+             "y": -5,
+             "scale": 1
+        }
+     },
+     "vsScreen": {
+         "neutral": {
+            "x": -470,
+            "y": 20,
+            "scale": 1.1
+         }
+     },
+     "gui": {
+         "neutral": {
+            "x": -5,
+            "y": 38,
+            "scale": 4.5
+         }
+	  }
+}
