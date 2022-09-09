@@ -1,0 +1,73 @@
+{
+    "skinList": [
+ 	 "Black and Blue",
+	 "Aaron",
+	 "Esix",
+	 "Zoroark",
+	 "Teal",
+	 "Giratina",
+ 	 "Braixen",
+	 "Aura"
+    ],
+    "scoreboard": {
+         "neutral": {
+             "x": 40,
+             "y": 60,
+             "scale": 2.6
+        }
+     },
+     "vsScreen": {
+         "Black and Blue": {
+            "x": -470,
+            "y": 20,
+            "scale": 0.8
+         },
+		 "Aaron": {
+            "x": -470,
+            "y": 20,
+            "scale": 1.6
+		 },
+		 "Esix": {
+            "x": -470,
+            "y": 20,
+            "scale": 0.8
+		 },
+		"Zoroark": {
+            "x": -470,
+            "y": 20,
+            "scale": 1.6
+		 },
+		 "Giratina": {
+            "x": -470,
+            "y": 20,
+            "scale": 0.8
+		 }, 
+		 "Braixen": {
+            "x": -470,
+            "y": 20,
+            "scale": 1.6
+		 },
+		 "Aura": {
+            "x": -470,
+            "y": 20,
+            "scale": 0.8
+         },
+		 "Teal": {
+            "x": -470,
+            "y": 20,
+            "scale": 0.8
+		 },
+		"Braixen": {
+            "x": -470,
+            "y": 20,
+            "scale": 0.8
+		} 
+     },
+     "gui": {
+         "neutral": {
+            "x": -5,
+            "y": 38,
+            "scale": 4.5
+         }
+	  }
+}
